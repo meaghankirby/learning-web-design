@@ -35,15 +35,39 @@ body {  font-family: Verdana, Geneva, sans-serif;  font-size: 100%;/* backgro
       #intro p {	font-family: Georgia, "Times New Roman", Times, serif;	
       font-style: italic;	margin: 1em;}
    /* styles for navigati on */
+   #nav ul li a{
+  display: block;
+  padding: .5em;
+  border: 1px solid #ba89a8;
+  border-radius: .5em;
+  margin: .25em;
+}
+   #nav{
+  overflow: hidden;
+  width: 100%;
+}
+   #nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
    #nav {	background-color: #751c54;}
-   #nav ul {	list-style:none;} 
+   #nav ul {	list-style:none;
+              padding: 0;
+              margin: 0 auto;
+              width: 19.5em;} 
    #nav ul li {	font-weight: normal;    text-transform: uppercase;}
    #nav ul a:link {    color: #fff;  }
    #nav ul a:visited {    color: #fff;  }
-   #nav ul a:focus {	color:#FC6}
-   #nav ul a:hover {    color: #fc6;  }
+   #nav ul a:focus {	color:#FC6;
+                      border-color: #fff;}
+   #nav ul a:hover {    color: #fc6;
+                        border-color: #fff;  }
    #nav ul a:active {	color:#F00;}
 	/* styles for the products section */
+ #products {
+  overflow: hidden;
+}
  #products .more {
   clear: left;
 }
