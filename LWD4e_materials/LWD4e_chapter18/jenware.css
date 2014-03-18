@@ -17,7 +17,9 @@ body {
   background-repeat: repeat-x;
   background-color: #fdf9bd; /* Old browsers */
 }
-
+img{
+  max-width:100%
+}
 
 /* link styles */
 a {
